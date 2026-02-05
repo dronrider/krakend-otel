@@ -19,7 +19,7 @@ import (
 	"go.opentelemetry.io/otel/trace"
 	nooptrace "go.opentelemetry.io/otel/trace/noop"
 
-	"github.com/krakend/krakend-otel/exporter"
+	"github.com/dronrider/krakend-otel/exporter"
 )
 
 const (

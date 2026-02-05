@@ -10,8 +10,8 @@ import (
 	"github.com/luraproject/lura/v2/config"
 	"github.com/luraproject/lura/v2/proxy"
 
-	kotelconfig "github.com/krakend/krakend-otel/config"
-	"github.com/krakend/krakend-otel/state"
+	kotelconfig "github.com/dronrider/krakend-otel/config"
+	"github.com/dronrider/krakend-otel/state"
 )
 
 func tracesMiddleware(next proxy.Proxy, mt *middlewareTracer) func(ctx context.Context, req *proxy.Request) (*proxy.Response, error) {

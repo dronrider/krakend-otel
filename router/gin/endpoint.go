@@ -7,9 +7,9 @@ import (
 	krakendgin "github.com/luraproject/lura/v2/router/gin"
 	"go.opentelemetry.io/otel/attribute"
 
-	kotelconfig "github.com/krakend/krakend-otel/config"
-	kotelserver "github.com/krakend/krakend-otel/http/server"
-	otelstate "github.com/krakend/krakend-otel/state"
+	kotelconfig "github.com/dronrider/krakend-otel/config"
+	kotelserver "github.com/dronrider/krakend-otel/http/server"
+	otelstate "github.com/dronrider/krakend-otel/state"
 )
 
 // New wraps a handler factory adding some simple instrumentation to the generated handlers

@@ -10,7 +10,7 @@ import (
 	"go.opentelemetry.io/otel/propagation"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/krakend/krakend-otel/state"
+	"github.com/dronrider/krakend-otel/state"
 )
 
 type trackingHandler struct {

@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/http"
 
-	kotelhttpserver "github.com/krakend/krakend-otel/http/server"
-	"github.com/krakend/krakend-otel/state"
+	kotelhttpserver "github.com/dronrider/krakend-otel/http/server"
+	"github.com/dronrider/krakend-otel/state"
 	luraconfig "github.com/luraproject/lura/v2/config"
 	"github.com/luraproject/lura/v2/logging"
 	luragin "github.com/luraproject/lura/v2/router/gin"

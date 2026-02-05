@@ -35,9 +35,9 @@ import (
 	"github.com/luraproject/lura/v2/transport/http/client"
 	"github.com/luraproject/lura/v2/transport/http/server"
 
-	kotel "github.com/krakend/krakend-otel"
-	otellura "github.com/krakend/krakend-otel/lura"
-	otelgin "github.com/krakend/krakend-otel/router/gin"
+	kotel "github.com/dronrider/krakend-otel"
+	otellura "github.com/dronrider/krakend-otel/lura"
+	otelgin "github.com/dronrider/krakend-otel/router/gin"
 )
 
 func main() {

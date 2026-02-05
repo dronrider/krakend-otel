@@ -12,7 +12,7 @@ import (
 
 	"github.com/luraproject/lura/v2/proxy"
 
-	"github.com/krakend/krakend-otel/state"
+	"github.com/dronrider/krakend-otel/state"
 )
 
 type middlewareTracer struct {

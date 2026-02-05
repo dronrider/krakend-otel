@@ -3,7 +3,7 @@ package state
 import (
 	"testing"
 
-	"github.com/krakend/krakend-otel/config"
+	"github.com/dronrider/krakend-otel/config"
 	luraconfig "github.com/luraproject/lura/v2/config"
 )
 

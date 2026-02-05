@@ -22,9 +22,9 @@ import (
 	lcore "github.com/luraproject/lura/v2/core"
 	"github.com/luraproject/lura/v2/logging"
 
-	"github.com/krakend/krakend-otel/config"
-	"github.com/krakend/krakend-otel/exporter"
-	"github.com/krakend/krakend-otel/state"
+	"github.com/dronrider/krakend-otel/config"
+	"github.com/dronrider/krakend-otel/exporter"
+	"github.com/dronrider/krakend-otel/state"
 )
 
 // Register uses the ServiceConfig to instantiate the configured exporters.

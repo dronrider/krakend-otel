@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/krakend/krakend-otel/config"
+	"github.com/dronrider/krakend-otel/config"
 )
 
 type otelExpectedExporter struct {

@@ -10,9 +10,9 @@ import (
 	luraconfig "github.com/luraproject/lura/v2/config"
 	transport "github.com/luraproject/lura/v2/transport/http/client"
 
-	otelconfig "github.com/krakend/krakend-otel/config"
-	clienthttp "github.com/krakend/krakend-otel/http/client"
-	otelstate "github.com/krakend/krakend-otel/state"
+	otelconfig "github.com/dronrider/krakend-otel/config"
+	clienthttp "github.com/dronrider/krakend-otel/http/client"
+	otelstate "github.com/dronrider/krakend-otel/state"
 )
 
 var defaultOpts = otelconfig.BackendOpts{

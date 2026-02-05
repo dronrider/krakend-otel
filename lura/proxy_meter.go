@@ -9,8 +9,8 @@ import (
 
 	"github.com/luraproject/lura/v2/proxy"
 
-	kotelconfig "github.com/krakend/krakend-otel/config"
-	"github.com/krakend/krakend-otel/state"
+	kotelconfig "github.com/dronrider/krakend-otel/config"
+	"github.com/dronrider/krakend-otel/state"
 )
 
 type middlewareMeter struct {

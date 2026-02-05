@@ -12,8 +12,8 @@ import (
 	"go.opentelemetry.io/otel/propagation"
 	"go.opentelemetry.io/otel/trace"
 
-	otelio "github.com/krakend/krakend-otel/io"
-	"github.com/krakend/krakend-otel/state"
+	otelio "github.com/dronrider/krakend-otel/io"
+	"github.com/dronrider/krakend-otel/state"
 )
 
 // TransportOptions defines the detail we want for
